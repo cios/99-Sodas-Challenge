@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84D2B8C19C8D6E900D55008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D2B8B19C8D6E900D55008 /* AppDelegate.swift */; };
+		C84D2B8E19C8D6E900D55008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D2B8D19C8D6E900D55008 /* ViewController.swift */; };
+		C84D2B9119C8D6E900D55008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84D2B8F19C8D6E900D55008 /* Main.storyboard */; };
+		C84D2B9319C8D6E900D55008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84D2B9219C8D6E900D55008 /* Images.xcassets */; };
+		C84D2B9619C8D6E900D55008 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84D2B9419C8D6E900D55008 /* LaunchScreen.xib */; };
+		C84D2BA219C8D6E900D55008 /* _9SodasChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D2BA119C8D6E900D55008 /* _9SodasChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84D2B9C19C8D6E900D55008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84D2B7E19C8D6E800D55008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84D2B8519C8D6E900D55008;
+			remoteInfo = 99SodasChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C84D2B8619C8D6E900D55008 /* 99SodasChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99SodasChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D2B8A19C8D6E900D55008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84D2B8B19C8D6E900D55008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C84D2B8D19C8D6E900D55008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84D2B9019C8D6E900D55008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84D2B9219C8D6E900D55008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C84D2B9519C8D6E900D55008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C84D2B9B19C8D6E900D55008 /* 99SodasChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99SodasChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D2BA019C8D6E900D55008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84D2BA119C8D6E900D55008 /* _9SodasChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9SodasChallengeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84D2B8319C8D6E900D55008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D2B9819C8D6E900D55008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84D2B7D19C8D6E800D55008 = {
+			isa = PBXGroup;
+			children = (
+				C84D2B8819C8D6E900D55008 /* 99SodasChallenge */,
+				C84D2B9E19C8D6E900D55008 /* 99SodasChallengeTests */,
+				C84D2B8719C8D6E900D55008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84D2B8719C8D6E900D55008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84D2B8619C8D6E900D55008 /* 99SodasChallenge.app */,
+				C84D2B9B19C8D6E900D55008 /* 99SodasChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84D2B8819C8D6E900D55008 /* 99SodasChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C84D2B8B19C8D6E900D55008 /* AppDelegate.swift */,
+				C84D2B8D19C8D6E900D55008 /* ViewController.swift */,
+				C84D2B8F19C8D6E900D55008 /* Main.storyboard */,
+				C84D2B9219C8D6E900D55008 /* Images.xcassets */,
+				C84D2B9419C8D6E900D55008 /* LaunchScreen.xib */,
+				C84D2B8919C8D6E900D55008 /* Supporting Files */,
+			);
+			path = 99SodasChallenge;
+			sourceTree = "<group>";
+		};
+		C84D2B8919C8D6E900D55008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84D2B8A19C8D6E900D55008 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C84D2B9E19C8D6E900D55008 /* 99SodasChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C84D2BA119C8D6E900D55008 /* _9SodasChallengeTests.swift */,
+				C84D2B9F19C8D6E900D55008 /* Supporting Files */,
+			);
+			path = 99SodasChallengeTests;
+			sourceTree = "<group>";
+		};
+		C84D2B9F19C8D6E900D55008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84D2BA019C8D6E900D55008 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84D2B8519C8D6E900D55008 /* 99SodasChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84D2BA519C8D6E900D55008 /* Build configuration list for PBXNativeTarget "99SodasChallenge" */;
+			buildPhases = (
+				C84D2B8219C8D6E900D55008 /* Sources */,
+				C84D2B8319C8D6E900D55008 /* Frameworks */,
+				C84D2B8419C8D6E900D55008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 99SodasChallenge;
+			productName = 99SodasChallenge;
+			productReference = C84D2B8619C8D6E900D55008 /* 99SodasChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C84D2B9A19C8D6E900D55008 /* 99SodasChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84D2BA819C8D6E900D55008 /* Build configuration list for PBXNativeTarget "99SodasChallengeTests" */;
+			buildPhases = (
+				C84D2B9719C8D6E900D55008 /* Sources */,
+				C84D2B9819C8D6E900D55008 /* Frameworks */,
+				C84D2B9919C8D6E900D55008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84D2B9D19C8D6E900D55008 /* PBXTargetDependency */,
+			);
+			name = 99SodasChallengeTests;
+			productName = 99SodasChallengeTests;
+			productReference = C84D2B9B19C8D6E900D55008 /* 99SodasChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84D2B7E19C8D6E800D55008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Complete iOS 8 with Swift";
+				TargetAttributes = {
+					C84D2B8519C8D6E900D55008 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C84D2B9A19C8D6E900D55008 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C84D2B8519C8D6E900D55008;
+					};
+				};
+			};
+			buildConfigurationList = C84D2B8119C8D6E800D55008 /* Build configuration list for PBXProject "99SodasChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84D2B7D19C8D6E800D55008;
+			productRefGroup = C84D2B8719C8D6E900D55008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84D2B8519C8D6E900D55008 /* 99SodasChallenge */,
+				C84D2B9A19C8D6E900D55008 /* 99SodasChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84D2B8419C8D6E900D55008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D2B9119C8D6E900D55008 /* Main.storyboard in Resources */,
+				C84D2B9619C8D6E900D55008 /* LaunchScreen.xib in Resources */,
+				C84D2B9319C8D6E900D55008 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D2B9919C8D6E900D55008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84D2B8219C8D6E900D55008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D2B8E19C8D6E900D55008 /* ViewController.swift in Sources */,
+				C84D2B8C19C8D6E900D55008 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D2B9719C8D6E900D55008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D2BA219C8D6E900D55008 /* _9SodasChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84D2B9D19C8D6E900D55008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84D2B8519C8D6E900D55008 /* 99SodasChallenge */;
+			targetProxy = C84D2B9C19C8D6E900D55008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84D2B8F19C8D6E900D55008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84D2B9019C8D6E900D55008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84D2B9419C8D6E900D55008 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84D2B9519C8D6E900D55008 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84D2BA319C8D6E900D55008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C84D2BA419C8D6E900D55008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84D2BA619C8D6E900D55008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 99SodasChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C84D2BA719C8D6E900D55008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 99SodasChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C84D2BA919C8D6E900D55008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 99SodasChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99SodasChallenge.app/99SodasChallenge";
+			};
+			name = Debug;
+		};
+		C84D2BAA19C8D6E900D55008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 99SodasChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99SodasChallenge.app/99SodasChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84D2B8119C8D6E800D55008 /* Build configuration list for PBXProject "99SodasChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D2BA319C8D6E900D55008 /* Debug */,
+				C84D2BA419C8D6E900D55008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84D2BA519C8D6E900D55008 /* Build configuration list for PBXNativeTarget "99SodasChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D2BA619C8D6E900D55008 /* Debug */,
+				C84D2BA719C8D6E900D55008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84D2BA819C8D6E900D55008 /* Build configuration list for PBXNativeTarget "99SodasChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D2BA919C8D6E900D55008 /* Debug */,
+				C84D2BAA19C8D6E900D55008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84D2B7E19C8D6E800D55008 /* Project object */;
+}
